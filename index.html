@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working With Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="theme">
+        Select Mode
+        <span id="theme-toggle">
+          <i class="fa-solid fa-moon"></i>
+          <!-- <i class="fa-regular fa-sun"></i> -->
+        </span>
+      </div>
+
+      <form class="form" action="" id="form">
+        <h1>Login to your Account</h1>
+        <div>
+          <label for="">Email</label>
+          <div>
+            <input type="email" name="" id="" />
+          </div>
+        </div>
+        <div>
+          <label for="">Password</label>
+          <div class="password">
+            <input type="password" name="" id="password" />
+            <span id="password-toggle" class="">
+              <i class="fa-solid fa-eye-slash"></i>
+              <!-- <i class="fa-solid fa-eye"></i> -->
+            </span>
+          </div>
+        </div>
+        <button type="submit">Sign In</button>
+        <a href="http://google.com"><h4>Forgot Password?</h4></a>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
